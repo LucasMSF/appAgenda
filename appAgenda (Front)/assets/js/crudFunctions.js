@@ -17,6 +17,7 @@ function createContact(element) {
   if(!validation()) {
     $(element).html('Criar')
     $('#createError').html('<div class="alert alert-warning text-center" role="alert">Preencha todos os campos!</div>')
+    blockButtons(0, element);
     return false;
   }
   $.ajax({
@@ -143,6 +144,7 @@ function editContact(element) {
   if(!validation('e')) {
     $(element).html('Editar')
     $('#editError').html('<div class="alert alert-warning text-center" role="alert">Preencha todos os campos!</div>')
+    blockButtons(0, element);
     return false;  
   }
   $.ajax({
