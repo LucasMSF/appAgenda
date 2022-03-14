@@ -40,7 +40,7 @@ Esse projeto tem como objetivo mostar mostrar/exercictar meus conhecimentos em P
 
 <br>
 
-* Dentro do terminal execute o comando "docker exec -it appagendaback_php-fpm_1 bash" para entrar no terminal do container
+* Dentro do terminal execute o comando "docker exec -it appagendaback_php-fpm_1 /bin/bash" para entrar no terminal do container
 
 <br>
 
@@ -56,7 +56,8 @@ Esse projeto tem como objetivo mostar mostrar/exercictar meus conhecimentos em P
 
 <br>
 
-<p><strong>OBS:</strong> As portas usadas pelos serviços na máquina Host são 46000 (WebServer) e 46002 (mysql). Certifique-se de estarem livres.</p>
+<p><strong>Observação:</strong> As portas usadas pelos serviços na máquina Host são 46000 (WebServer) e 46002 (mysql). Certifique-se de estarem livres.</p>
+<p><strong>Observação 2:</strong> Deixei o meu arquivo dotENV (.env) com todas as configuração necessárias para rodar a aplicação</p>
 
 <hr>
 
