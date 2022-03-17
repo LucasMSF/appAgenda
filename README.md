@@ -19,7 +19,7 @@
 
 ## Sobre
 
-Esse projeto tem como objetivo mostar mostrar/exercictar meus conhecimentos em PHP (Laravel), com um CRUD no Padrão API REST.
+Esse projeto tem como objetivo mostrar/exercictar meus conhecimentos em PHP (Laravel), com um CRUD no Padrão API REST.
 
 * Create (Inserir/Criar dados)
 * Read (Selecionar/Ler dados)
